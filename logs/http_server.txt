@@ -1,0 +1,904 @@
+nohup: ignoring input
+127.0.0.1 - - [21/Nov/2025 18:53:53] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 18:53:53] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 18:53:53] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 18:53:53] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 18:53:53] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 18:53:53] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 18:53:53] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:04:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:04:33] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:04:33] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:04:40] "GET /audiosamples/dialog/prompt/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:04:40] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:04:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:04:47] "GET /audiosamples/dialog/baseline---prompt/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:04:52] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:04:57] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:05:13] "GET /audiosamples/dialog/prompt/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:05:19] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:05:38] "GET /audiosamples/dialog/baseline---prompt/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:05:43] "GET /audiosamples/dialog/mooncast/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:00] "GET /audiosamples/dialog/cosyvoice/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:05] "GET /audiosamples/dialog/cosyvoice/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:16] "GET /audiosamples/dialog/mooncast/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:38] "GET /audiosamples/dialog/mooncast/esd/10/Angry/0013---000045-000046---neutral-neutral___0020---000032-000030---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:46] "GET /audiosamples/dialog/prompt/esd/10/Happy/0013---000045-000046---neutral-neutral___0020---000032-000030---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:52] "GET /audiosamples/dialog/prompt/ravdess/36/Happy/23---03-01-01-01-01-01-23-03-01-01-01-01-02-23---neutral-neutral___08---03-01-01-01-02-02-08-03-01-01-01-02-01-08---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:06:56] "GET /audiosamples/dialog/mooncast/ravdess/36/Happy/23---03-01-01-01-01-01-23-03-01-01-01-01-02-23---neutral-neutral___08---03-01-01-01-02-02-08-03-01-01-01-02-01-08---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:07:50] "GET /audiosamples/dialog/cosyvoice/ravdess/36/Happy/23---03-01-01-01-01-01-23-03-01-01-01-01-02-23---neutral-neutral___08---03-01-01-01-02-02-08-03-01-01-01-02-01-08---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:07:56] "GET /audiosamples/dialog/mooncast/esd/10/Happy/0013---000045-000046---neutral-neutral___0020---000032-000030---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:08:35] "GET /audiosamples/dialog/prompt/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:08:48] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:12:37] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:12:37] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:12:37] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:12:37] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:16:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:16:52] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:16:52] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:16:52] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:16:52] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:16:52] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:16:52] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:16:57] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:16:57] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:24:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:24:01] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:24:01] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:24:23] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/57/Happy/102_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:24:23] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:24:23] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:25:00] "GET /audiosamples/dialog/baseline---prompt/davidaitest/57/Happy/102_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:26:25] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/davidaitest/57/Happy/102_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:36:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:36:39] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:36:39] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:36:41] "GET /audiosamples/dialog/baseline---prompt/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:36:41] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:36:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:36:44] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:36:52] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:37:04] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:37:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:37:47] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [21/Nov/2025 19:37:47] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:37:47] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:38:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:38:03] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:38:03] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:38:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:38:30] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:38:30] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:38:41] "GET /audiosamples/dialog/baseline---prompt/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:38:41] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:38:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:38:50] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:39:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:39:10] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:39:10] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:39:15] "GET /audiosamples/dialog/baseline---prompt/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [21/Nov/2025 19:39:15] code 404, message File not found
+127.0.0.1 - - [21/Nov/2025 19:39:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Nov/2025 19:39:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2025 00:29:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/Nov/2025 00:29:47] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [22/Nov/2025 00:29:47] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Nov/2025 00:29:47] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Nov/2025 00:29:47] code 404, message File not found
+127.0.0.1 - - [22/Nov/2025 00:29:47] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [22/Nov/2025 00:29:47] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:18:16] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:18:16] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 10:18:16] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:18:16] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:18:16] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:18:16] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:18:16] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET /statics/my.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET /images/inference.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:27:59] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 10:27:59] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 10:28:18] "GET /audiosamples/dialog/prompt/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:28:19] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 10:28:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 10:28:32] "GET /audiosamples/dialog/baseline---prompt/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:29:01] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:29:37] "GET /audiosamples/dialog/cosyvoice/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:30:00] "GET /audiosamples/dialog/mooncast/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:30:10] "GET /audiosamples/dialog/prompt/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:30:16] "GET /audiosamples/dialog/baseline---prompt/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:30:54] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/20/Sad/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:31:29] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/29/Happy/0018---000026-000041---neutral-neutral___0019---000022-000021---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:31:34] "GET /audiosamples/dialog/prompt/esd/29/Happy/0018---000026-000041---neutral-neutral___0019---000022-000021---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:31:36] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/29/Angry/0018---000026-000041---neutral-neutral___0019---000022-000021---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:33:49] "GET /audiosamples/dialog/baseline---prompt/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:33:53] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:33:55] "GET /audiosamples/dialog/prompt/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:34:23] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:34:30] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/69/Angry/275_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:45:18] "GET /audiosamples/dialog/baseline---prompt/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:45:19] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 10:45:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 10:45:25] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/20/Sad/117_1.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 10:45:30] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:46:14] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/69/Angry/275_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:46:39] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/davidaitest/69/Sad/275_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 10:46:58] "GET /audiosamples/dialog/prompt/davidaitest/69/Sad/275_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:37:50] "GET /audiosamples/dialog/baseline---prompt/davidaitest/69/Angry/275_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:37:52] "GET /audiosamples/dialog/mooncast/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:38:40] "GET /audiosamples/dialog/mooncast/esd/20/Happy/0014---000024-000026---neutral-neutral___0020---000026-000048---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:38:44] "GET /audiosamples/dialog/mooncast/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:38:54] "GET /audiosamples/dialog/prompt/davidaitest/20/Sad/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:47:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 11:47:40] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 11:47:40] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 11:47:42] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 11:47:42] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 11:47:42] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 11:47:44] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 11:47:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 11:47:48] "GET /audiosamples/dialog/prompt/davidaitest/20/Happy/117_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:53:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:53:22] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 11:53:22] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 11:53:28] "GET /audiosamples/dialog/cosyvoice/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:53:28] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 11:53:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 11:53:31] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:53:38] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/ravdess/6/Sad/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:53:48] "GET /audiosamples/dialog/cosyvoice/ravdess/6/Sad/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 11:53:59] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/esd/39/Happy/0013---000042-000029---neutral-neutral___0015---000048-000040---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:41:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:41:33] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:41:33] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:42:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:42:26] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:42:26] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:42:30] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:42:30] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:42:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:42:43] "GET /audiosamples/dialog/prompt/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:42:46] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:43:01] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:43:01] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/39/0/39_0.wav HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:43:04] "GET /audiosamples/dialog/mooncast/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:43:13] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:43:44] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:43:56] "GET /audiosamples/dialog/mooncast/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:43:56] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:43:56] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/104/0/104_0.wav HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:48:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:48:59] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:48:59] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:49:01] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:49:01] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 14:49:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 14:49:12] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:49:35] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 14:49:51] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:12:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:12:17] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 15:12:17] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 15:12:19] "GET /audiosamples/dialog/groundtruth/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:12:19] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 15:12:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 15:13:38] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 15:13:38] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 15:13:38] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 15:13:41] "GET /audiosamples/dialog/groundtruth/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:13:41] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 15:13:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 15:13:50] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:13:57] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:15:09] "GET /audiosamples/dialog/groundtruth/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:15:35] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:15:47] "GET /audiosamples/dialog/groundtruth/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:16:01] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:16:09] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:16:36] "GET /audiosamples/dialog/mooncast/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:16:55] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/327/0/327_0.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 15:17:07] "GET /audiosamples/dialog/mooncast/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:17:24] "GET /audiosamples/dialog/mooncast/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:17:33] "GET /audiosamples/dialog/mooncast/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:19:20] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:34:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:34:48] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 15:34:48] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 15:34:52] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/101/0/101_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:34:52] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 15:34:52] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 15:35:00] "GET /audiosamples/dialog/prompt/real/davidaitest/101/0/101_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:08] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/101/1/101_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:15] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/117/0/117_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:31] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/111/3/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:38] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/102/1/102_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:45] "GET /audiosamples/dialog/prompt/real/davidaitest/102/1/102_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:48] "GET /audiosamples/dialog/groundtruth/real/davidaitest/102/1/102_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:35:58] "GET /audiosamples/dialog/groundtruth/real/davidaitest/101/0/101_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:36:08] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:36:11] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:36:33] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:36:42] "GET /audiosamples/dialog/mooncast/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:36:51] "GET /audiosamples/dialog/mooncast/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:37:08] "GET /audiosamples/dialog/mooncast/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:38:06] "GET /audiosamples/dialog/mooncast/syn/esd/87/Angry/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 15:38:43] "GET /audiosamples/dialog/prompt/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:21:28] "GET /audiosamples/dialog/mooncast/real/davidaitest/101/0/101_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:21:49] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/101/0/101_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:21:54] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:22:00] "GET /audiosamples/dialog/mooncast_original/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:23:00] "GET /audiosamples/dialog/mooncast/syn/ravdess/77/Angry/22---03-01-01-01-01-01-22-03-01-01-01-01-02-22---neutral-neutral___21---03-01-01-01-02-02-21-03-01-01-01-01-01-21---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:32:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:32:24] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 16:32:24] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 16:32:30] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 16:32:30] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 16:32:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 16:32:41] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 16:38:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 16:38:11] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 16:38:11] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 17:05:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:05:57] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 17:05:57] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 17:05:57] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 17:06:02] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:06:02] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 17:06:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 17:06:09] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:06:13] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:06:28] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:06:40] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 17:06:40] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 17:06:46] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/87/Happy/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:19:04] "GET /audiosamples/dialog/cosyvoice/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:25:01] "GET /audiosamples/dialog/prompt/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 17:25:04] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:35:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:35:05] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 20:35:05] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 20:35:05] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 20:35:05] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 20:35:05] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 20:37:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:37:56] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 20:37:56] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 20:37:58] "GET /audiosamples/dialog/cosyvoice/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:37:58] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 20:37:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 20:38:10] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:38:13] "GET /audiosamples/dialog/prompt/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:38:20] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:38:36] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:38:51] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:38:57] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:04] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 20:55:04] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 20:55:06] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:06] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 20:55:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 20:55:11] "GET /audiosamples/dialog/mooncast/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:26] "GET /audiosamples/dialog/mooncast/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:33] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:38] "GET /audiosamples/dialog/prompt/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:52] "GET /audiosamples/dialog/mooncast/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:55:59] "GET /audiosamples/dialog/mooncast/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:07] "GET /audiosamples/dialog/mooncast/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:15] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:17] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:25] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:30] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:36] "GET /audiosamples/dialog/mooncast/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:43] "GET /audiosamples/dialog/prompt/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 20:56:59] "GET /audiosamples/dialog/mooncast/syn/davidaitest/87/Happy/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:09:33] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:09:35] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:09:43] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:10:07] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:10:10] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:11:08] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/59/Happy/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:11:09] "GET /audiosamples/dialog/mooncast/syn/davidaitest/59/Happy/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:11:17] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:11:20] "GET /audiosamples/dialog/prompt/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/mooncast/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/mooncast/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/mooncast/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/mooncast/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/prompt/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/prompt/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/prompt/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /audiosamples/dialog/prompt/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:27:59] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:27:59] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:28:14] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 21:28:14] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:28:14] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:28:17] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:28:17] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:51:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:51:27] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:51:27] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:51:32] "GET /audiosamples/dialog/mooncast/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:51:32] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:51:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:51:37] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:51:44] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:51:49] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:51:57] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:52:02] "GET /audiosamples/dialog/prompt/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:52:05] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:52:08] "GET /audiosamples/dialog/mooncast/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:52:19] "GET /audiosamples/dialog/prompt/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:52:24] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:52:33] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:57:06] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:57:06] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:57:26] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:57:37] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:57:39] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:57:46] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:57:51] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:57:56] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:25] "GET /audiosamples/dialog/mooncast/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:25] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:25] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:59:25] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:59:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 21:59:27] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:59:27] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:59:28] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:28] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 21:59:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 21:59:31] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:39] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 21:59:41] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 21:59:43] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:47] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 21:59:51] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:18] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:20] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:22] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:02:22] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:02:28] "GET /audiosamples/dialog/cosyvoice/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:28] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:02:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:02:37] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:39] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:45] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:47] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:50] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:53] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:02:56] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/mooncast/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/mooncast/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:47] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:08:47] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:08:48] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:08:48] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:08:48] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:08:51] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:08:51] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:08:51] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:08:56] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:02] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:05] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:10] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:17] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:19] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:23] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:26] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:33] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/63/Angry/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:41] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:52] "GET /audiosamples/dialog/prompt/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:09:55] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/72/Sad/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/72/Sad/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/mooncast/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51930)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.9/http/server.py", line 1305, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib64/python3.9/http/server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib64/python3.9/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/usr/lib64/python3.9/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/usr/lib64/python3.9/http/server.py", line 421, in handle_one_request
+    method()
+  File "/usr/lib64/python3.9/http/server.py", line 675, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib64/python3.9/http/server.py", line 875, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib64/python3.9/shutil.py", line 208, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib64/python3.9/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/72/Angry/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:19] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:13:19] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Sad/280_0.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:13:19] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:13:19] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:13:19] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:13:21] "GET /audiosamples/dialog/mooncast_original/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:21] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:13:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:13:25] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:29] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:34] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:37] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:40] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:47] "GET /audiosamples/dialog/mooncast/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:13:52] "GET /audiosamples/dialog/mooncast/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:27] "GET /audiosamples/dialog/mooncast/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:37] "GET /audiosamples/dialog/mooncast/syn/esd/87/Happy/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:42] "GET /audiosamples/dialog/mooncast/syn/esd/87/Angry/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:44] "GET /audiosamples/dialog/mooncast/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:49] "GET /audiosamples/dialog/cosyvoice/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:50] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:53] "GET /audiosamples/dialog/mooncast/syn/ravdess/87/Angry/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:56] "GET /audiosamples/dialog/mooncast/syn/ravdess/77/Angry/22---03-01-01-01-01-01-22-03-01-01-01-01-02-22---neutral-neutral___21---03-01-01-01-02-02-21-03-01-01-01-01-01-21---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:14:59] "GET /audiosamples/dialog/mooncast/syn/ravdess/77/Sad/22---03-01-01-01-01-01-22-03-01-01-01-01-02-22---neutral-neutral___21---03-01-01-01-02-02-21-03-01-01-01-01-01-21---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:15:04] "GET /audiosamples/dialog/mooncast/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:15:16] "GET /audiosamples/dialog/mooncast_original/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:15:20] "GET /audiosamples/dialog/mooncast/syn/ravdess/10/Happy/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:58] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:26:58] "GET /audiosamples/dialog/prompt/syn/ravdess/10/Happy/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:58] "GET /audiosamples/dialog/mooncast/syn/esd/59/Sad/0012---000044-000041---neutral-neutral___0016---000050-000049---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:58] "GET /audiosamples/dialog/cosyvoice/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:59] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:59] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:59] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:26:59] "GET /audiosamples/dialog/mooncast/syn/ravdess/10/Happy/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET /audiosamples/dialog/mooncast/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET /audiosamples/dialog/mooncast/syn/ravdess/10/Happy/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:01] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:04] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:04] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 22:27:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:27:06] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:27:06] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:42:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:42:16] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:42:16] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:42:19] "GET /audiosamples/dialog/cosyvoice/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:42:20] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:42:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:42:24] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:42:28] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:42:31] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:42:39] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:42:42] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:45:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:45:51] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:45:51] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:45:54] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:45:54] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 22:45:54] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 22:46:00] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:46:04] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:46:07] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/77/Angry/280_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:46:11] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:46:13] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:47:06] "GET /audiosamples/dialog/mooncast/syn/davidaitest/63/Sad/111_3.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:53:42] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:53:51] "GET /audiosamples/dialog/mooncast/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:54:02] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:54:06] "GET /audiosamples/dialog/prompt/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:54:17] "GET /audiosamples/dialog/mooncast/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:54:23] "GET /audiosamples/dialog/mooncast/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 22:54:27] "GET /audiosamples/dialog/mooncast/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:00:21] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [24/Nov/2025 23:00:21] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 23:00:21] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 23:13:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:13:15] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 23:13:15] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 23:13:18] "GET /audiosamples/dialog/mooncast/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:13:19] code 404, message File not found
+127.0.0.1 - - [24/Nov/2025 23:13:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [24/Nov/2025 23:13:30] "GET /audiosamples/dialog/mooncast/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:13:40] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/39/0/39_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:13:43] "GET /audiosamples/dialog/mooncast/real/davidaitest/104/0/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:13:49] "GET /audiosamples/dialog/mooncast/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:13:53] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/real/davidaitest/327/0/327_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:15:34] "GET /audiosamples/dialog/mooncast/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:15:40] "GET /audiosamples/dialog/mooncast/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:15:52] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:16:18] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:16:31] "GET /audiosamples/dialog/mooncast/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:16:37] "GET /audiosamples/dialog/cosyvoice/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:16:39] "GET /audiosamples/dialog/mooncast_original/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:17:27] "GET /audiosamples/dialog/mooncast/syn/esd/87/Happy/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:17:50] "GET /audiosamples/dialog/mooncast/syn/esd/87/Angry/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:18:05] "GET /audiosamples/dialog/mooncast/syn/ravdess/87/Happy/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:18:10] "GET /audiosamples/dialog/mooncast/syn/ravdess/87/Angry/03---03-01-01-01-01-02-03-03-01-01-01-01-01-03---neutral-neutral___11---03-01-01-01-01-01-11-03-01-01-01-02-02-11---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:19:14] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:20:22] "GET /audiosamples/dialog/mooncast_original/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:20:33] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:20:45] "GET /audiosamples/dialog/mooncast/syn/esd/59/Sad/0012---000044-000041---neutral-neutral___0016---000050-000049---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:20:48] "GET /audiosamples/dialog/mooncast/syn/esd/59/Happy/0012---000044-000041---neutral-neutral___0016---000050-000049---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:23:12] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:23:29] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:23:33] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [24/Nov/2025 23:23:39] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:00] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 00:27:00] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 00:27:00] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 00:27:05] "GET /audiosamples/dialog/mooncast_original/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:05] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 00:27:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 00:27:09] "GET /audiosamples/dialog/mooncast/syn/esd/32/Angry/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:16] "GET /audiosamples/dialog/mooncast/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:40] "GET /audiosamples/dialog/mooncast/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:46] "GET /audiosamples/dialog/mooncast/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:47] "GET /audiosamples/dialog/mooncast/syn/esd/77/Angry/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:27:57] "GET /audiosamples/dialog/mooncast/syn/esd/87/Happy/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:28:01] "GET /audiosamples/dialog/mooncast/syn/esd/87/Angry/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 00:59:42] "GET /audiosamples/dialog/cosyvoice/syn/esd/87/Angry/0011---000044-000049---neutral-neutral___0014---000021-000044---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 03:58:00] "GET /audiosamples/dialog/cosyvoice/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 03:58:07] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 03:58:15] "GET /audiosamples/dialog/prompt/syn/esd/32/Sad/0016---000037-000048---neutral-neutral___0018---000046-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 03:58:19] "GET /audiosamples/dialog/prompt/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 03:58:24] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 03:58:31] "GET /audiosamples/dialog/cosyvoice/syn/esd/77/Sad/0020---000044-000047---neutral-neutral___0018---000049-000022---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 05:49:00] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 05:49:00] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 05:49:00] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 05:49:01] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 05:49:01] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 05:49:01] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:45:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:45:13] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:45:13] "GET /images/inference.png HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:45:13] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:45:13] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:45:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:45:40] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:45:40] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:45:47] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/37/0/37_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:45:48] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:45:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:46:08] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/37/0/37_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:10] "GET /audiosamples/dialog/mooncast/real/davidaitest/37/0/37_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:18] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/214/0/214_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:20] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/113/0/113_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:24] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/113/0/113_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:31] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:36] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:45] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/87/Happy/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:48] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/87/Happy/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:51] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:55] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:46:58] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:47:04] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/84/Angry/158_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:47:08] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/84/Angry/158_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:47:25] "GET /audiosamples/dialog/prompt/syn/davidaitest/84/Angry/158_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:47:31] "GET /audiosamples/dialog/cosyvoice/syn/esd/35/Sad/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:47:33] "GET /audiosamples/dialog/baseline---prompt/syn/esd/35/Sad/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:11] "GET /audiosamples/dialog/cosyvoice/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:11] "GET /audiosamples/dialog/baseline---prompt/syn/esd/73/Happy/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:11] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:48:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:11] "GET /audiosamples/dialog/textmspvad_synv3---vad-linear-regression/syn/esd/88/Sad/0018---000050-000025---neutral-neutral___0019---000046-000031---neutral-neutral.wav HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:48:11] "GET /audiosamples/dialog/baseline---prompt/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:11] "GET / HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 39820)
+Traceback (most recent call last):
+  File "/usr/lib64/python3.9/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.9/http/server.py", line 1305, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/usr/lib64/python3.9/http/server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib64/python3.9/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/usr/lib64/python3.9/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/usr/lib64/python3.9/http/server.py", line 421, in handle_one_request
+    method()
+  File "/usr/lib64/python3.9/http/server.py", line 675, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/usr/lib64/python3.9/http/server.py", line 875, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/usr/lib64/python3.9/shutil.py", line 208, in copyfileobj
+    fdst_write(buf)
+  File "/usr/lib64/python3.9/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [25/Nov/2025 14:48:12] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:48:12] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:48:15] "GET /audiosamples/dialog/cosyvoice/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:15] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:48:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:48:17] "GET /audiosamples/dialog/baseline---prompt/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:23] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:25] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:48:51] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/59/Happy/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:03] "GET /audiosamples/dialog/mooncast/syn/davidaitest/59/Happy/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:19] "GET /audiosamples/dialog/mooncast/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:29] "GET /audiosamples/dialog/mooncast/syn/davidaitest/87/Angry/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:35] "GET /audiosamples/dialog/mooncast/syn/davidaitest/87/Happy/36_7.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:44] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/87/Happy/36_7.wav HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:49:46] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Sad/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:49] "GET /audiosamples/dialog/mooncast/syn/davidaitest/6/Angry/104_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:52] "GET /audiosamples/dialog/mooncast/syn/davidaitest/84/Angry/158_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:49:58] "GET /audiosamples/dialog/mooncast/syn/davidaitest/54/Angry/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:50:03] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/54/Angry/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:50:05] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/54/Angry/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:50:14] "GET /audiosamples/dialog/mooncast/syn/davidaitest/54/Happy/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:50:21] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/54/Happy/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:51:47] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:51:47] "GET /audiosamples/dialog/prompt/syn/davidaitest/54/Happy/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:51:47] "GET /audiosamples/dialog/prompt/syn/davidaitest/54/Angry/275_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:51:47] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:51:47] "GET /audiosamples/dialog/textmspvad---vad-linear-regression/syn/davidaitest/54/Happy/275_5.wav HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:53:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:53:49] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:53:49] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:53:49] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:53:49] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:53:52] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:53:52] "GET /audiosamples/dialog/textmspvad_realfake_synv3---vad-linear-regression/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:53:55] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:53:55] "GET /audiosamples/dialog/textmspvad_synv3---vad-linear-regression/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:53:57] "GET /audiosamples/dialog/baseline---prompt/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:53:57] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:53:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:54:01] "GET /audiosamples/dialog/mooncast/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:54:04] "GET /audiosamples/dialog/cosyvoice/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 14:54:26] "GET /audiosamples/dialog/mooncast/syn/esd/35/Sad/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:55:01] "GET /audiosamples/dialog/mooncast/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:55:15] "GET /audiosamples/dialog/baseline---prompt/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:55:17] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:55:17] "GET /audiosamples/dialog/textmspvad_realfake_synv3---vad-linear-regression/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:56:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:56:51] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:56:51] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:56:53] "GET /audiosamples/dialog/textmspmanualvad_synv3---vad-linear-regression/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:56:53] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:56:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 14:57:02] "GET /audiosamples/dialog/prompt/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:57:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 14:57:50] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 14:57:50] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 15:01:27] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 15:01:27] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 15:01:27] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 15:01:33] "GET /audiosamples/dialog/cosyvoice/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 15:01:33] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 15:01:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 15:01:35] "GET /audiosamples/dialog/baseline---prompt/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 15:01:39] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 15:01:42] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/59/Sad/15_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 15:19:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 15:19:57] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 15:19:57] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:13:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:13:54] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:13:54] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:13:57] "GET /audiosamples/intensity/textvad---vad-linear-regression/syn/ravdess/1/Sad/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___sad___0.0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:13:58] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:13:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:14:25] "GET /audiosamples/intensity/textvad---vad-linear-regression/syn/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___happy___0.0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:14:28] "GET /audiosamples/intensity/textvad---vad-linear-regression/syn/ravdess/6/Sad/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___angry___0.0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:14:35] "GET /audiosamples/intensity/textvad---vad-linear-regression/syn/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___happy___1.0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:16:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:16:32] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:16:32] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:16:39] "GET /audiosamples/intensity/textvad---vad-linear-regression/syn/ravdess/6/Sad/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___angry___1.0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:16:40] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:16:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:18:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:18:16] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:18:16] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:18:31] "GET /audiosamples/intensity/textvad_synv3---vad-linear-regression/syn/ravdess/6/Sad/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___angry___0.0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:18:31] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:18:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:53:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:53:22] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:53:22] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:53:28] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:53:28] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:53:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:53:33] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:53:37] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:57:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:57:38] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:57:38] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:57:41] "GET /audiosamples/intensity/prompt/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:57:42] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:57:42] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:57:45] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:57:53] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:57:56] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/5/Happy/17---03-01-01-01-01-01-17-03-01-01-01-02-02-17---neutral-neutral___19---03-01-01-01-02-02-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:58:02] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/8/Happy/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:58:11] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/5/Sad/17---03-01-01-01-01-01-17-03-01-01-01-02-02-17---neutral-neutral___19---03-01-01-01-02-02-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:16] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:59:16] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:59:17] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/8/Happy/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:18] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 17:59:18] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 17:59:22] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/1/Happy/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:26] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/1/Happy/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:31] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/2/Angry/10---03-01-01-01-02-02-10-03-01-01-01-01-01-10---neutral-neutral___15---03-01-01-01-02-02-15-03-01-01-01-01-02-15---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:34] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/2/Angry/10---03-01-01-01-02-02-10-03-01-01-01-01-01-10---neutral-neutral___15---03-01-01-01-02-02-15-03-01-01-01-01-02-15---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:40] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/3/Angry/10---03-01-01-01-01-01-10-03-01-01-01-02-01-10---neutral-neutral___23---03-01-01-01-01-02-23-03-01-01-01-02-02-23---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 17:59:46] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 17:59:51] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/8/Sad/17---03-01-01-01-01-01-17-03-01-01-01-01-02-17---neutral-neutral___19---03-01-01-01-02-01-19-03-01-01-01-01-02-19---neutral-neutral___happy.wav HTTP/1.1" 304 -
+127.0.0.1 - - [25/Nov/2025 18:13:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:13:49] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 18:13:49] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 18:15:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:15:05] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 18:15:05] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 18:20:32] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/49/Sad/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:20:34] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 18:20:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 18:20:36] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/49/Sad/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:20:38] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/49/Happy/65_2.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:20:41] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/80/Happy/197_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:20:52] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/80/Sad/197_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:20:55] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/52/Sad/76_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:20:59] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/52/Sad/76_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:21:14] "GET /audiosamples/dialog/textmspmanualvad_realfake_synv3---vad-linear-regression/syn/davidaitest/52/Sad/76_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:21:29] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/52/Happy/76_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:21:46] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/65/Happy/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:21:54] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/65/Happy/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:21:57] "GET /audiosamples/dialog/textmspmanualvad_realfake_synv3---vad-linear-regression/syn/davidaitest/65/Happy/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:22:13] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/65/Happy/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:22:19] "GET /audiosamples/dialog/prompt/syn/davidaitest/65/Happy/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:22:27] "GET /audiosamples/dialog/prompt/syn/davidaitest/65/Sad/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:22:30] "GET /audiosamples/dialog/prompt/syn/davidaitest/52/Happy/76_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 18:22:33] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/52/Happy/76_1.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:00:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:00:31] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 19:00:31] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 19:00:36] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/7/Happy/10---03-01-01-01-01-01-10-03-01-01-01-01-02-10---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-02-15---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:00:37] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 19:00:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 19:00:43] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/7/Happy/10---03-01-01-01-01-01-10-03-01-01-01-01-02-10---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-02-15---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:00:51] "GET /audiosamples/intensity/textvad---vad-linear-regression___0.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:00:56] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:01:05] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/1/Happy/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:01:13] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:01:20] "GET /audiosamples/intensity/textvad---vad-linear-regression___1.0/syn/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:03:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:03:53] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 19:03:53] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 19:03:56] "GET /audiosamples/intensity/textvad---prompt___0.2/syn/ravdess/1/Happy/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:03:57] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 19:03:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 19:03:59] "GET /audiosamples/intensity/textvad---prompt___1.0/syn/ravdess/1/Happy/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:04:03] "GET /audiosamples/intensity/textvad---prompt___1.0/syn/ravdess/7/Happy/10---03-01-01-01-01-01-10-03-01-01-01-01-02-10---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-02-15---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:04:10] "GET /audiosamples/intensity/textvad---prompt___1.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:27] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 19:05:27] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 19:05:28] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___0.4/syn/ravdess/7/Happy/10---03-01-01-01-01-01-10-03-01-01-01-01-02-10---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-02-15---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:28] code 404, message File not found
+127.0.0.1 - - [25/Nov/2025 19:05:28] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [25/Nov/2025 19:05:30] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___1.0/syn/ravdess/7/Happy/10---03-01-01-01-01-01-10-03-01-01-01-01-02-10---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-02-15---neutral-neutral___angry.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:34] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___1.0/syn/ravdess/1/Happy/09---03-01-01-01-02-01-09-03-01-01-01-01-02-09---neutral-neutral___05---03-01-01-01-02-02-05-03-01-01-01-02-01-05---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:39] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___1.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:46] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___1.0/syn/ravdess/6/Angry/04---03-01-01-01-02-02-04-03-01-01-01-01-02-04---neutral-neutral___20---03-01-01-01-01-02-20-03-01-01-01-02-01-20---neutral-neutral___happy.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:53] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___1.0/syn/ravdess/0/Angry/07---03-01-01-01-02-01-07-03-01-01-01-02-02-07---neutral-neutral___13---03-01-01-01-02-01-13-03-01-01-01-01-01-13---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:57] "GET /audiosamples/intensity/prompt/syn/ravdess/0/Angry/07---03-01-01-01-02-01-07-03-01-01-01-02-02-07---neutral-neutral___13---03-01-01-01-02-01-13-03-01-01-01-01-01-13---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:05:59] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___0.0/syn/ravdess/0/Angry/07---03-01-01-01-02-01-07-03-01-01-01-02-02-07---neutral-neutral___13---03-01-01-01-02-01-13-03-01-01-01-01-01-13---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:11] "GET /audiosamples/dialog/cosyvoice/real/davidaitest/37/0/37_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:16] "GET /audiosamples/dialog/baseline---prompt/real/davidaitest/37/0/37_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:22] "GET /audiosamples/dialog/mooncast/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:24] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:29] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/32/Sad/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:34] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/32/Angry/117_5.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:37] "GET /audiosamples/dialog/cosyvoice/syn/davidaitest/65/Sad/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:20:40] "GET /audiosamples/dialog/baseline---prompt/syn/davidaitest/65/Sad/15_0.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:54:56] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___0.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2025 19:55:00] "GET /audiosamples/intensity/textvad_realfake_synv3---vad-linear-regression___1.0/syn/ravdess/9/Angry/22---03-01-01-01-02-02-22-03-01-01-01-01-01-22---neutral-neutral___18---03-01-01-01-01-01-18-03-01-01-01-01-02-18---neutral-neutral___sad.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:33:11] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2025 09:33:11] "GET /images/inference.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:33:11] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:33:11] code 404, message File not found
+127.0.0.1 - - [26/Nov/2025 09:33:11] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2025 09:33:11] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2025 09:33:11] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2025 09:37:46] "GET /audiosamples/dialog/baseline---prompt/syn/ravdess/24/Angry/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:37:48] code 404, message File not found
+127.0.0.1 - - [26/Nov/2025 09:37:48] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2025 09:37:53] "GET /audiosamples/dialog/prompt/syn/ravdess/24/Angry/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:54:24] "GET /audiosamples/dialog/textmspmanualvad_synv3---vad-linear-regression/syn/ravdess/24/Angry/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:54:39] "GET /audiosamples/dialog/cosyvoice/syn/ravdess/24/Angry/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:54:41] "GET /audiosamples/dialog/mooncast/syn/ravdess/24/Angry/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:54:47] "GET /audiosamples/dialog/mooncast/syn/ravdess/24/Happy/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:54:51] "GET /audiosamples/dialog/mooncast/syn/esd/39/Happy/0013---000042-000029---neutral-neutral___0015---000048-000040---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:06] "GET /audiosamples/dialog/prompt/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:13] "GET /audiosamples/dialog/mooncast/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:19] "GET /audiosamples/dialog/cosyvoice/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:21] "GET /audiosamples/dialog/textmspmanualvad_realfake_synv3---vad-linear-regression/syn/esd/73/Sad/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:34] "GET /audiosamples/dialog/textmspmanualvad_synv3---vad-linear-regression/syn/esd/73/Happy/0015---000035-000040---neutral-neutral___0014---000045-000032---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:44] "GET /audiosamples/dialog/prompt/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:55:52] "GET /audiosamples/dialog/textmspmanualvad_synv3---vad-linear-regression/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:56:00] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:56:09] "GET /audiosamples/dialog/textmspmanualvad_realfake_synv3---vad-linear-regression/syn/esd/35/Angry/0014---000043-000038---neutral-neutral___0016---000041-000037---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:56:46] "GET /audiosamples/dialog/prompt/syn/esd/64/Angry/0014---000040-000039---neutral-neutral___0011---000036-000042---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:57:03] "GET /audiosamples/dialog/prompt/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:57:18] "GET /audiosamples/dialog/textmspmanualvad_synv3---vad-linear-regression/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:57:20] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:57:31] "GET /audiosamples/dialog/cosyvoice/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:57:33] "GET /audiosamples/dialog/mooncast/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:57:51] "GET /audiosamples/dialog/mooncast/syn/ravdess/10/Happy/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:58:00] "GET /audiosamples/dialog/mooncast/syn/ravdess/4/Angry/19---03-01-01-01-02-02-19-03-01-01-01-01-02-19---neutral-neutral___24---03-01-01-01-01-02-24-03-01-01-01-01-01-24---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:58:14] "GET /audiosamples/dialog/prompt/syn/ravdess/4/Angry/19---03-01-01-01-02-02-19-03-01-01-01-01-02-19---neutral-neutral___24---03-01-01-01-01-02-24-03-01-01-01-01-01-24---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:58:16] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/4/Angry/19---03-01-01-01-02-02-19-03-01-01-01-01-02-19---neutral-neutral___24---03-01-01-01-01-02-24-03-01-01-01-01-01-24---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 09:58:26] "GET /audiosamples/dialog/cosyvoice/syn/ravdess/4/Angry/19---03-01-01-01-02-02-19-03-01-01-01-01-02-19---neutral-neutral___24---03-01-01-01-01-02-24-03-01-01-01-01-01-24---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:00:47] code 404, message File not found
+127.0.0.1 - - [26/Nov/2025 10:00:47] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2025 10:55:56] "GET /audiosamples/dialog/prompt/syn/esd/39/Happy/0013---000042-000029---neutral-neutral___0015---000048-000040---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:55:56] code 404, message File not found
+127.0.0.1 - - [26/Nov/2025 10:55:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2025 10:56:07] "GET /audiosamples/dialog/textmspmanualvad_realfake_synv3---vad-linear-regression/syn/esd/39/Happy/0013---000042-000029---neutral-neutral___0015---000048-000040---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:56:11] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/esd/39/Happy/0013---000042-000029---neutral-neutral___0015---000048-000040---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:56:51] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:57:26] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Nov/2025 10:57:26] "GET /audiosamples/dialog/baseline---prompt/syn/ravdess/10/Angry/06---03-01-01-01-02-01-06-03-01-01-01-01-02-06---neutral-neutral___13---03-01-01-01-01-02-13-03-01-01-01-02-01-13---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:57:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:57:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:57:27] code 404, message File not found
+127.0.0.1 - - [26/Nov/2025 10:57:27] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2025 10:57:32] code 404, message File not found
+127.0.0.1 - - [26/Nov/2025 10:57:32] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Nov/2025 10:57:35] "GET /audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/ravdess/24/Angry/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -
+127.0.0.1 - - [26/Nov/2025 10:57:55] "GET /audiosamples/dialog/baseline---prompt/syn/ravdess/24/Happy/19---03-01-01-01-01-02-19-03-01-01-01-01-01-19---neutral-neutral___15---03-01-01-01-01-01-15-03-01-01-01-02-01-15---neutral-neutral.wav HTTP/1.1" 200 -

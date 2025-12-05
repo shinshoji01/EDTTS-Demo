@@ -1,0 +1,4 @@
+usage: server.py [-h] [--cgi] [--bind ADDRESS] [--directory DIRECTORY] [port]
+server.py: error: unrecognized arguments: ./logs/http_server.txt
+usage: server.py [-h] [--cgi] [--bind ADDRESS] [--directory DIRECTORY] [port]
+server.py: error: unrecognized arguments: ./logs/http_server.txt

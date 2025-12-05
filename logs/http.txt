@@ -1,0 +1,8 @@
+nohup: ignoring input
+127.0.0.1 - - [05/Dec/2025 11:56:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 11:56:10] "GET /images/inference.png HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 11:56:11] "GET /statics/bootstrap-5.2.3-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Dec/2025 11:56:11] "GET /statics/my.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Dec/2025 11:56:11] code 404, message File not found
+127.0.0.1 - - [05/Dec/2025 11:56:11] "GET /statics/bootstrap-5.2.3-dist/bootstrap.min.js HTTP/1.1" 404 -
+127.0.0.1 - - [05/Dec/2025 11:56:11] "GET /statics/jquery/jquery-3.7.1.slim.min.js HTTP/1.1" 304 -
