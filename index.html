@@ -39,15 +39,13 @@
         <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
           <h3>Empathetic dialog generation (empathetic text dialogs, "RealPrompts")</h3>
           <p class="lead">
-                We constructed the empathetic text dialogues using a large language model (LLM). For the speech prompts, we used real two-channel speech dialogues to more accurately simulate natural conversations. <ul>   <li><b>Prompt</b>: The input speech prompts used for inference. To create two-speaker conversations, we combined single-speaker audio clips from the RAVDESS and ESD datasets. <br></li>   <li><b>EmoDialogTTS (ours)</b>: Our emotion-aware version of DialogTTS, designed to generate empathetic speech dialogues.<br></li>   <li><b>DTTS</b>: The original DialogTTS model, which does not use any emotion information when generating speech.<br></li>   <li><b>MoonCast + Speaker Separation</b>: Speech dialogues generated with MoonCast. We then used a speaker-separation process to split the mixed audio into two separate speaker channels.<br></li>   <li><b>MoonCast</b>: Speech dialogues generated with MoonCast. <br></li> </ul> 
+                We constructed the empathetic text dialogues using a large language model (LLM). For the speech prompts, we used real two-channel speech dialogues to more accurately simulate natural conversations. <ul>   <li><b>Prompt</b>: The input speech prompts used for inference. To create two-speaker conversations, we combined single-speaker audio clips from the RAVDESS and ESD datasets. <br></li>   <li><b>EmoDialogTTS (ours)</b>: Our emotion-aware version of DialogTTS, designed to generate empathetic speech dialogues.<br></li>   <li><b>DTTS</b>: The original DialogTTS model, which does not use any emotion information when generating speech.<br></li>   <li><b>MoonCast + Speaker Separation</b>: Speech dialogues generated with MoonCast. We then used a speaker-separation process to split the mixed audio into two separate speaker channels.<br></li>   <li><b>MoonCast</b>: Speech dialogues generated with MoonCast. <br></li> </ul> <p style='background-color: #fff3a0; color: #000; padding: 6px 8px; display: inline-block;'> We set the total duration to 1 minute, including both the prompt and the target dialogues. If the combined audio exceeds this limit, we truncate turns to enforce the maximum duration. </p> 
                 </p>
           <div class="table-responsive" style="overflow-x: scroll">
             <table class="table table-sm">
                   <thead>
                 <tr>
                   <th scope="col">ID</th>
-                      <th scope="col" class="text-center">internaldata/30/Sad</th>
-                      <th scope="col" class="text-center">internaldata/30/Happy</th>
                       <th scope="col" class="text-center">internaldata/60/Angry</th>
                       <th scope="col" class="text-center">internaldata/60/Happy</th>
                       <th scope="col" class="text-center">internaldata/93/Happy</th>
@@ -74,17 +72,13 @@
                       <th scope="col" class="text-center">internaldata/24/Angry</th>
                       <th scope="col" class="text-center">internaldata/95/Sad</th>
                       <th scope="col" class="text-center">internaldata/95/Happy</th>
+                      <th scope="col" class="text-center">internaldata/30/Sad</th>
+                      <th scope="col" class="text-center">internaldata/30/Happy</th>
                     </tr>
               </thead>
                   <tbody>
                 <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">Text</th>
-                  <td>
-                <p><table style="border-collapse: separate; border-spacing: 0 5px;"><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="blue">Sad</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I just learned about C87 and its multiple meanings.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That sounds, um, really confusing and overwhelming.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="blue">Sad</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yeah, I feel like I understand it less now than before I learned about it.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">It's like, you know, the more you know, the more you realize how much you don't know, right?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="red">Angry</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Exactly! It's frustrating.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I can see why you'd feel that way. It's natural to feel frustrated when things don't, you know, click right away.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I guess you're right. Maybe I just need to take it one step at a time.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That's a great attitude to have!  Taking it one step at a time can really make a big difference, you know.</span></td></tr></table></p>
-              </td>
-                  <td>
-                <p><table style="border-collapse: separate; border-spacing: 0 5px;"><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I just learned about C87 and its multiple meanings.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That's great! You're really excited about it, aren't you?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yes, I am. It's so fascinating to see how one term can have so many different interpretations.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I can see why you'd find that fascinating. It's like uncovering a treasure trove of knowledge, right?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Exactly. It's like a whole new world has opened up for me.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That's wonderful. It sounds like you're really enjoying this newfound understanding,  it's great to see you so happy!</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I am. It's making me think about all the other things I thought I knew but didn't really understand.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">It's always exciting to discover new layers of meaning. You're being really open to learning, and that's [start of laugh] really [end of laugh] great!</span></td></tr></table></p>
-              </td>
                   <td>
                 <p><table style="border-collapse: separate; border-spacing: 0 5px;"><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="red">Angry</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I've been reading about historical figures, and Sun Chuanfang caught my attention.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">You seem really upset, um, about something related to Sun Chuanfang.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="red">Angry</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yeah, I just can't understand why he did some of the things he did.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">It's really frustrating when we can't understand the actions of historical figures, you know? Can you tell me more about what's bothering you?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="blue">Sad</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I guess it's just how he treated some people during his time.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That can be really saddening to read about. How do you think his actions impacted the people around him, I mean?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I'm not sure, but it makes me uncomfortable thinking about it.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">It's okay to feel uncomfortable when we learn about difficult topics. What do you think you can take away from, um, learning about Sun Chuanfang's story?</span></td></tr></table></p>
               </td>
@@ -163,19 +157,15 @@
                   <td>
                 <p><table style="border-collapse: separate; border-spacing: 0 5px;"><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I've been thinking about visiting Khan's Garden in Ganja.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That sounds like a great idea; Khan's Garden is really a beautiful place, you know.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I know, I've heard so much about it; I'm really excited to see the historical architecture.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">You're really looking forward to it, aren't you?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yes, I am; it's going to be a great experience, I'm sure.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I'm sure it will be; so, what else are you planning to do while you're in Ganja?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I'm planning to visit the Nizami Ganjavi Museum too, and maybe take a stroll along the Kura River.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That sounds like a wonderful itinerary; you're really making the most of your trip, that's great.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yeah, I'm trying to fit in as much as I can; it's going to be a fantastic trip.</span></td></tr></table></p>
               </td>
+                  <td>
+                <p><table style="border-collapse: separate; border-spacing: 0 5px;"><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="blue">Sad</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I just learned about C87 and its multiple meanings.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That sounds, um, really confusing and overwhelming.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="blue">Sad</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yeah, I feel like I understand it less now than before I learned about it.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">It's like, you know, the more you know, the more you realize how much you don't know, right?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="red">Angry</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Exactly! It's frustrating.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I can see why you'd feel that way. It's natural to feel frustrated when things don't, you know, click right away.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="green">Neutral</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I guess you're right. Maybe I just need to take it one step at a time.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That's a great attitude to have!  Taking it one step at a time can really make a big difference, you know.</span></td></tr></table></p>
+              </td>
+                  <td>
+                <p><table style="border-collapse: separate; border-spacing: 0 5px;"><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I just learned about C87 and its multiple meanings.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That's great! You're really excited about it, aren't you?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Yes, I am. It's so fascinating to see how one term can have so many different interpretations.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I can see why you'd find that fascinating. It's like uncovering a treasure trove of knowledge, right?</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">Exactly. It's like a whole new world has opened up for me.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">That's wonderful. It sounds like you're really enjoying this newfound understanding,  it's great to see you so happy!</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>User</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">I am. It's making me think about all the other things I thought I knew but didn't really understand.</span></td></tr><tr><td style="text-align: center; vertical-align: middle; min-width: 100px;"><span style="font-size: 0.8rem;"><strong>Agent</strong><br>(<span class="orange">Happy</span>)</span></td><td style="text-align: center; vertical-align: middle; min-width: 300px;"><span style="font-size: 0.8rem;">It's always exciting to discover new layers of meaning. You're being really open to learning, and that's [start of laugh] really [end of laugh] great!</span></td></tr></table></p>
+              </td>
                     </tr>
                     <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">Prompt</th>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/prompt/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/prompt/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
                       <td style="text-align: center; vertical-align: middle; min-width: 100px;">
                         <audio controls="" preload="none" style="width: 240px">
                       <source src="./audiosamples/dialog/prompt/syn/davidaitest/60/Angry/117_6.wav" type="audio/wav">
@@ -306,19 +296,19 @@
                       <source src="./audiosamples/dialog/prompt/syn/davidaitest/95/Happy/42_0.wav" type="audio/wav">
                     </audio>
                       </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/prompt/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/prompt/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
                     </tr>
                     <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">EmoDialogTTS (ours)</th>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
                       <td style="text-align: center; vertical-align: middle; min-width: 100px;">
                         <audio controls="" preload="none" style="width: 240px">
                       <source src="./audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/60/Angry/117_6.wav" type="audio/wav">
@@ -449,19 +439,19 @@
                       <source src="./audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/95/Happy/42_0.wav" type="audio/wav">
                     </audio>
                       </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/textmspmanualvad---vad-linear-regression/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
                     </tr>
                     <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">DialogTTS</th>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/baseline---prompt/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/baseline---prompt/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
                       <td style="text-align: center; vertical-align: middle; min-width: 100px;">
                         <audio controls="" preload="none" style="width: 240px">
                       <source src="./audiosamples/dialog/baseline---prompt/syn/davidaitest/60/Angry/117_6.wav" type="audio/wav">
@@ -592,19 +582,19 @@
                       <source src="./audiosamples/dialog/baseline---prompt/syn/davidaitest/95/Happy/42_0.wav" type="audio/wav">
                     </audio>
                       </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/baseline---prompt/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/baseline---prompt/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
                     </tr>
                     <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">CosyVoice</th>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/cosyvoice/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/cosyvoice/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
                       <td style="text-align: center; vertical-align: middle; min-width: 100px;">
                         <audio controls="" preload="none" style="width: 240px">
                       <source src="./audiosamples/dialog/cosyvoice/syn/davidaitest/60/Angry/117_6.wav" type="audio/wav">
@@ -735,19 +725,19 @@
                       <source src="./audiosamples/dialog/cosyvoice/syn/davidaitest/95/Happy/42_0.wav" type="audio/wav">
                     </audio>
                       </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/cosyvoice/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/cosyvoice/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
                     </tr>
                     <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">MoonCast + Speaker Separation</th>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/mooncast/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/mooncast/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
                       <td style="text-align: center; vertical-align: middle; min-width: 100px;">
                         <audio controls="" preload="none" style="width: 240px">
                       <source src="./audiosamples/dialog/mooncast/syn/davidaitest/60/Angry/117_6.wav" type="audio/wav">
@@ -878,19 +868,19 @@
                       <source src="./audiosamples/dialog/mooncast/syn/davidaitest/95/Happy/42_0.wav" type="audio/wav">
                     </audio>
                       </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/mooncast/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/mooncast/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
                     </tr>
                     <tr>
                   <th scope="row" style="position: sticky; left: 0; z-index:10; opacity: 1.0; background-color: white;">MoonCast</th>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/mooncast_original/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
-                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
-                        <audio controls="" preload="none" style="width: 240px">
-                      <source src="./audiosamples/dialog/mooncast_original/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
-                    </audio>
-                      </td>
                       <td style="text-align: center; vertical-align: middle; min-width: 100px;">
                         <audio controls="" preload="none" style="width: 240px">
                       <source src="./audiosamples/dialog/mooncast_original/syn/davidaitest/60/Angry/117_6.wav" type="audio/wav">
@@ -1021,6 +1011,16 @@
                       <source src="./audiosamples/dialog/mooncast_original/syn/davidaitest/95/Happy/42_0.wav" type="audio/wav">
                     </audio>
                       </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/mooncast_original/syn/davidaitest/30/Sad/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
+                      <td style="text-align: center; vertical-align: middle; min-width: 100px;">
+                        <audio controls="" preload="none" style="width: 240px">
+                      <source src="./audiosamples/dialog/mooncast_original/syn/davidaitest/30/Happy/292_4.wav" type="audio/wav">
+                    </audio>
+                      </td>
                     </tr>
                   </tbody>
             </table>
@@ -1030,7 +1030,7 @@
         <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
           <h3>Empathetic dialog generation (empathetic text dialogs, "SynPrompts")</h3>
           <p class="lead">
-                We constructed the empathetic text dialogues using a large language model (LLM). For the speech prompts, we concatenated utterance-level speech samples to simulate two-channel speech dialogues. <ul>   <li><b>Prompt</b>: The input speech prompts used for inference. To create two-speaker conversations, we combined single-speaker audio clips from the RAVDESS and ESD datasets. <br></li>   <li><b>EmoDialogTTS (ours)</b>: Our emotion-aware version of DialogTTS, designed to generate empathetic speech dialogues.<br></li>   <li><b>DTTS</b>: The original DialogTTS model, which does not use any emotion information when generating speech.<br></li>   <li><b>CosyVoice</b>: Speech generated by CosyVoice. Since CosyVoice produces single-utterance samples, we simply concatenated them to form dialogue samples. For the speech prompts, we used expressive speech samples to generate outputs with the target emotion labels.<br></li>   <li><b>MoonCast + Speaker Separation</b>: Speech dialogues generated with MoonCast. We then used a speaker-separation process to split the mixed audio into two separate speaker channels.<br></li>   <li><b>MoonCast</b>: Speech dialogues generated with MoonCast. <br></li> </ul> 
+                We constructed the empathetic text dialogues using a large language model (LLM). For the speech prompts, we concatenated utterance-level speech samples to simulate two-channel speech dialogues. <ul>   <li><b>Prompt</b>: The input speech prompts used for inference. To create two-speaker conversations, we combined single-speaker audio clips from the RAVDESS and ESD datasets. <br></li>   <li><b>EmoDialogTTS (ours)</b>: Our emotion-aware version of DialogTTS, designed to generate empathetic speech dialogues.<br></li>   <li><b>DTTS</b>: The original DialogTTS model, which does not use any emotion information when generating speech.<br></li>   <li><b>CosyVoice</b>: Speech generated by CosyVoice. Since CosyVoice produces single-utterance samples, we simply concatenated them to form dialogue samples. For the speech prompts, we used expressive speech samples to generate outputs with the target emotion labels.<br></li>   <li><b>MoonCast + Speaker Separation</b>: Speech dialogues generated with MoonCast. We then used a speaker-separation process to split the mixed audio into two separate speaker channels.<br></li>   <li><b>MoonCast</b>: Speech dialogues generated with MoonCast. <br></li> </ul> <p style='background-color: #fff3a0; color: #000; padding: 6px 8px; display: inline-block;'> We set the total duration to 1 minute, including both the prompt and the target dialogues. If the combined audio exceeds this limit, we truncate turns to enforce the maximum duration. </p> 
                 </p>
           <div class="table-responsive" style="overflow-x: scroll">
             <table class="table table-sm">
@@ -1885,7 +1885,7 @@
         <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
           <h3>Speech dialog generation (ground-truth text dialogs, "RealPrompts")</h3>
           <p class="lead">
-                We used the ground-truth text dialogues and real two-channel speech prompts, used for direct comparison against the ground-truth. <ul>   <li><b>Prompt</b>: The input speech prompts used for inference. To create two-speaker conversations, we combined single-speaker audio clips from the RAVDESS and ESD datasets. <br></li>   <li><b>Ground-Truth</b>: The original, reference speech samples used as the standard for comparison.<br></li>   <li><b>EmoDialogTTS (ours)</b>: Our emotion-aware version of DialogTTS, designed to generate empathetic speech dialogues.<br></li>   <li><b>DTTS</b>: The original DialogTTS model, which does not use any emotion information when generating speech.<br></li>   <li><b>CosyVoice</b>: Speech generated by CosyVoice. Since CosyVoice produces single-utterance samples, we simply concatenated them to form dialogue samples. <br></li>   <li><b>MoonCast + Speaker Separation</b>: Speech dialogues generated with MoonCast. We then used a speaker-separation process to split the mixed audio into two separate speaker channels.<br></li>   <li><b>MoonCast</b>: Speech dialogues generated with MoonCast. <br></li> </ul> 
+                We used the ground-truth text dialogues and real two-channel speech prompts, used for direct comparison against the ground-truth. <ul>   <li><b>Prompt</b>: The input speech prompts used for inference. To create two-speaker conversations, we combined single-speaker audio clips from the RAVDESS and ESD datasets. <br></li>   <li><b>Ground-Truth</b>: The original, reference speech samples used as the standard for comparison.<br></li>   <li><b>EmoDialogTTS (ours)</b>: Our emotion-aware version of DialogTTS, designed to generate empathetic speech dialogues.<br></li>   <li><b>DTTS</b>: The original DialogTTS model, which does not use any emotion information when generating speech.<br></li>   <li><b>CosyVoice</b>: Speech generated by CosyVoice. Since CosyVoice produces single-utterance samples, we simply concatenated them to form dialogue samples. <br></li>   <li><b>MoonCast + Speaker Separation</b>: Speech dialogues generated with MoonCast. We then used a speaker-separation process to split the mixed audio into two separate speaker channels.<br></li>   <li><b>MoonCast</b>: Speech dialogues generated with MoonCast. <br></li> </ul> <p style='background-color: #fff3a0; color: #000; padding: 6px 8px; display: inline-block;'> We set the total duration to 1 minute, including both the prompt and the target dialogues. If the combined audio exceeds this limit, we truncate turns to enforce the maximum duration. </p> 
                 </p>
           <div class="table-responsive" style="overflow-x: scroll">
             <table class="table table-sm">
